@@ -1,0 +1,136 @@
+:root {
+  --border-radius: 0;
+  --border-radius2x: 0;
+  --default: #777;
+}
+:root {
+
+  /* ================= PRIMARY (Pink / Purple) ================= */
+  --primary: #E6007A;
+  --primary-100: #CC006D;
+  --primary-200: #B30060;
+  --primary-300: #990053;
+
+  --primary--100: #FF1F8E;
+  --primary--200: #FF4DA6;
+  --primary--300: #FF80BF;
+
+  --primary-rgba-0: rgba(230, 0, 122, 0);
+  --primary-rgba-10: rgba(230, 0, 122, 0.1);
+  --primary-rgba-20: rgba(230, 0, 122, 0.2);
+  --primary-rgba-30: rgba(230, 0, 122, 0.3);
+  --primary-rgba-40: rgba(230, 0, 122, 0.4);
+  --primary-rgba-50: rgba(230, 0, 122, 0.5);
+  --primary-rgba-60: rgba(230, 0, 122, 0.6);
+  --primary-rgba-70: rgba(230, 0, 122, 0.7);
+  --primary-rgba-80: rgba(230, 0, 122, 0.8);
+  --primary-rgba-90: rgba(230, 0, 122, 0.9);
+
+
+  /* ================= SECONDARY (Orange) ================= */
+  --secondary: #FF8A00;
+  --secondary-100: #E67C00;
+  --secondary-200: #CC6E00;
+  --secondary-300: #B36000;
+
+  --secondary--100: #FF9F2E;
+  --secondary--200: #FFB65C;
+  --secondary--300: #FFCB8A;
+
+  --secondary-rgba-0: rgba(255, 138, 0, 0);
+  --secondary-rgba-10: rgba(255, 138, 0, 0.1);
+  --secondary-rgba-20: rgba(255, 138, 0, 0.2);
+  --secondary-rgba-30: rgba(255, 138, 0, 0.3);
+  --secondary-rgba-40: rgba(255, 138, 0, 0.4);
+  --secondary-rgba-50: rgba(255, 138, 0, 0.5);
+  --secondary-rgba-60: rgba(255, 138, 0, 0.6);
+  --secondary-rgba-70: rgba(255, 138, 0, 0.7);
+  --secondary-rgba-80: rgba(255, 138, 0, 0.8);
+  --secondary-rgba-90: rgba(255, 138, 0, 0.9);
+
+
+  /* ================= TERTIARY (Purple Accent) ================= */
+  --tertiary: #7A1FA2;
+  --tertiary-100: #6A1B90;
+  --tertiary-200: #5A177E;
+  --tertiary-300: #4A136C;
+
+  --tertiary--100: #8F3AB5;
+  --tertiary--200: #A45EC7;
+  --tertiary--300: #B982D9;
+
+  --tertiary-rgba-0: rgba(122, 31, 162, 0);
+  --tertiary-rgba-10: rgba(122, 31, 162, 0.1);
+  --tertiary-rgba-20: rgba(122, 31, 162, 0.2);
+  --tertiary-rgba-30: rgba(122, 31, 162, 0.3);
+  --tertiary-rgba-40: rgba(122, 31, 162, 0.4);
+  --tertiary-rgba-50: rgba(122, 31, 162, 0.5);
+  --tertiary-rgba-60: rgba(122, 31, 162, 0.6);
+  --tertiary-rgba-70: rgba(122, 31, 162, 0.7);
+  --tertiary-rgba-80: rgba(122, 31, 162, 0.8);
+  --tertiary-rgba-90: rgba(122, 31, 162, 0.9);
+
+
+  /* ================= DARK / BACKGROUND ================= */
+  --dark: #0E0E10;
+  --dark-100: #0A0A0C;
+  --dark-200: #070708;
+  --dark-300: #040405;
+
+  --dark--100: #1A1A1D;
+  --dark--200: #242428;
+  --dark--300: #2F2F34;
+
+  --dark-rgba-0: rgba(14, 14, 16, 0);
+  --dark-rgba-10: rgba(14, 14, 16, 0.1);
+  --dark-rgba-20: rgba(14, 14, 16, 0.2);
+  --dark-rgba-30: rgba(14, 14, 16, 0.3);
+  --dark-rgba-40: rgba(14, 14, 16, 0.4);
+  --dark-rgba-50: rgba(14, 14, 16, 0.5);
+  --dark-rgba-60: rgba(14, 14, 16, 0.6);
+  --dark-rgba-70: rgba(14, 14, 16, 0.7);
+  --dark-rgba-80: rgba(14, 14, 16, 0.8);
+  --dark-rgba-90: rgba(14, 14, 16, 0.9);
+
+
+  /* ================= LIGHT ================= */
+  --light: #FFFFFF;
+  --light-100: #F5F5F5;
+  --light-200: #EEEEEE;
+  --light-300: #E5E5E5;
+
+  --light-rgba-0: rgba(255, 255, 255, 0);
+  --light-rgba-10: rgba(255, 255, 255, 0.1);
+  --light-rgba-20: rgba(255, 255, 255, 0.2);
+  --light-rgba-30: rgba(255, 255, 255, 0.3);
+  --light-rgba-40: rgba(255, 255, 255, 0.4);
+  --light-rgba-50: rgba(255, 255, 255, 0.5);
+  --light-rgba-60: rgba(255, 255, 255, 0.6);
+  --light-rgba-70: rgba(255, 255, 255, 0.7);
+  --light-rgba-80: rgba(255, 255, 255, 0.8);
+  --light-rgba-90: rgba(255, 255, 255, 0.9);
+
+  --bg-gradient:linear-gradient(90deg, #FF8A00, #E6007A, #7A1FA2);
+}
+
+:root {
+  --primary-inverse: #fff;
+  --secondary-inverse: #777;
+  --tertiary-inverse: #fff;
+  --quaternary-inverse: #fff;
+  --dark-inverse: #fff;
+  --light-inverse: #777;
+}
+:root {
+  --grey: #969696;
+  --grey-100: #f4f4f4;
+  --grey-200: #eaeaea;
+  --grey-300: #e5e5e5;
+  --grey-400: #e0e0e0;
+  --grey-500: #dbdbdb;
+  --grey-600: #cecece;
+  --grey-700: #c1c1c1;
+  --grey-800: #a8a8a8;
+  --grey-900: #8e8e8e;
+  --grey-1000: #757575;
+}
