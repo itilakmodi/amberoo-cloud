@@ -26,6 +26,6 @@ jobs:
         run: |
           ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }} << 'EOF'
             cd /var/www/Amberoo-Cloud
-            git pull origin main
+            sudo git pull origin main
             sudo systemctl reload nginx
-          EOF
+         EOF
