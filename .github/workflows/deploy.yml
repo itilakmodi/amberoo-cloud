@@ -25,7 +25,8 @@ jobs:
       - name: Deploy Website
         run: |
           ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }} << 'EOF'
+            sudo git config --global --add safe.directory /var/www/Amberoo-Cloud
             cd /var/www/Amberoo-Cloud
             sudo git pull origin main
             sudo systemctl reload nginx
-         EOF
+          EOF
