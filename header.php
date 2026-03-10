@@ -113,7 +113,7 @@
                                                 </li> -->
 
                                                 <li>
-                                                    <a href="products.php" class="nav-link ">Products</a>
+                                                    <a href="products" class="nav-link ">Products</a>
                                                 </li>
                                                 <li>
                                                     <a class="nav-link" href="pricing.php">
