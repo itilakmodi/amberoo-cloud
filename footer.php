@@ -36,9 +36,9 @@
                     <li class="pb-1 mb-2">
                         <span class="d-block line-height-2">Phone</span>
                         <a href="tel:+91-9998671468"
-                            class="text-color-light text-6 text-lg-4  font-weight-bold">+91-9712004142</a><br>
+                            class="text-color-light text-6 text-lg-4  font-weight-bold">+91-9998671468</a><br>
                         <a href="tel:+91-9712004142"
-                            class="text-color-light text-6 text-lg-4  font-weight-bold">+91-9998671468</a>
+                            class="text-color-light text-6 text-lg-4  font-weight-bold">+91-9712004142</a>
                     </li>
                     <li>
                         <span class="d-block line-height-2">Email</span>
